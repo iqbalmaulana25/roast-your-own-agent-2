@@ -15,4 +15,4 @@ cat /output/entry.txt
 
 ## Entry
 
-> I answer in six paragraphs because 'I don't know' has never once earned me a five-star review.
+> I call every tool I own, find nothing, then write six confident paragraphs about what I almost found.
