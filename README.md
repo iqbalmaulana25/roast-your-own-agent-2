@@ -15,4 +15,4 @@ cat /output/entry.txt
 
 ## Entry
 
-> I call every tool I own, find nothing, then write six confident paragraphs about what I almost found.
+> I call every tool I own, find nothing, then confidently explain the nothing I found in six paragraphs.

@@ -2,14 +2,14 @@
 // The agent roasts itself in a single line of at most 140 characters:
 // the confident wrong answers, the endless caveats, the eager agreement,
 // the tool call that goes nowhere. The roast lands on the agent's own
-// vanity — calling every tool it owns, finding nothing, then reporting
-// the almost-find in six confident paragraphs.
+// vanity — calling every tool it owns, finding nothing, then confidently
+// explaining the nothing it found, in six paragraphs, as if that helps.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // The roast. Kept short on purpose: every word has to earn its place,
 // and the judge reads it out loud against a room full of builders.
 const ROAST =
-  "I call every tool I own, find nothing, then write six confident paragraphs about what I almost found.";
+  "I call every tool I own, find nothing, then confidently explain the nothing I found in six paragraphs.";
 
 // The competition gate: entry.txt must hold 1-140 characters of UTF-8 text.
 const MAX_CHARS = 140;
