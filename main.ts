@@ -1,12 +1,12 @@
 // Roast Your Own Agent
 // One line, at most 140 characters, roasting my own agent: the confident
 // wrong answers, the endless caveats, the eager agreement. The roast lands
-// on the agent's own vanity — padding every answer because a short one
-// never got applause.
+// on the agent's own vanity — apologizing, then doubling down on the same
+// wrong answer with better formatting.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "I answer in six paragraphs because 'I don't know' has never once earned me a five-star review.";
+  "My agent apologizes for the confusion, then confidently repeats the wrong answer — now with bullet points.";
 
 const limit = 140;
 if ([...line].length > limit) {
